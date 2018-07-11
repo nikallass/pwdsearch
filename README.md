@@ -1,5 +1,5 @@
 # Password search tool
-Tool searching for different default passwords in routers, web application management systems, databases, enterprise systems, etc. It uses Levenshtein distance for fuzzy search. It uses over 7500 default passwords.
+Tool searching for different default passwords in routers, web application management systems, databases, enterprise systems, etc. It uses Levenshtein distance for fuzzy search. It uses over 11000 default passwords.
 
 ## Install
     git clone https://github.com/nikallass/pwdsearch.git
@@ -23,19 +23,48 @@ Use csvlook from csvkit to beautify csv in console.
 
 
 ## TODO:
-* Add tomat, jboss, coldfusion, weblogic, railo, axis2, glassfish, wildfly
-* Add ipmi, HP management systems, RabbitMQ and others
+* Add multiword search
+* Add coldfusion, railo, axis2, terradata
 * Add source:
+
+Routers and others:
+
+    http://www.defaultpassword.com/
+    https://cirt.net/passwords
+    http://www.defaultpassword.us/
+    https://default-password.info/
+    https://www.bestvpn.com/guides/default-router-login-details/
+    https://192-168-1-1ip.mobi/default-router-passwords-list/
+    http://www.routerpasswords.com/
+    http://phenoelit.org/dpl/dpl.html
+    https://github.com/jeanphorn/wordlist
+    https://datarecovery.com/rd/default-passwords/
+    https://www.lifewire.com/netgear-default-password-list-2619154
+
+
+* SCADA:
+
+    * [SCADA Default Password (SDPD)](http://www.critifence.com/default-password-database/)
+    * [Default Passwords for Nearly Every SCADA System](https://www.hackers-arise.com/single-post/2016/09/21/Scada-Hacking-Default-Passwords-for-Nearly-Every-SCADA-System)
+
+* [default accounts wordlist](https://github.com/milo2012/pentest_scripts/tree/master/default_accounts_wordlist)
+* [netbiosX/Default-Credentials](https://github.com/netbiosX/Default-Credentials)
+* [tenable: plugins: Default unix accounts](https://www.tenable.com/plugins/index.php?view=all&family=Default+Unix+Accounts)
+* [default password list (2007-07-03)](http://www.phenoelit.org/dpl/dpl.html)
 
 
 ## Password Sources
     https://github.com/ztgrace/changeme
     https://github.com/danielmiessler/SecLists/blob/master/Miscellaneous/wordlist-common-snmp-community-strings.txt
+    https://github.com/breenmachine/VulnCheckFramework/tree/master/credentialDatabase
+    http://securenetworkmanagement.com/default-password-list/
     http://open-sez.me/
     http://defaultpasswords.in/
+    https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/
+    https://github.com/danielmiessler/SecLists/blob/master/Passwords/Default-Credentials/scada-pass.csv
+    https://ipvm.com/reports/ip-cameras-default-passwords-directory
     https://github.com/govolution/betterdefaultpasslist/blob/master/mssql.txt
     https://github.com/rapid7/metasploit-framework/blob/master/data/wordlists/snmp_default_pass.txt
-    https://github.com/rapid7/ssh-badkeys
     https://github.com/netbiosX/Default-Credentials
     https://github.com/jarmouz/default_credentials/blob/master/Camera_DC.csv
     https://gist.github.com/todb-r7/5d86ecc8118f9eeecc15
@@ -89,35 +118,6 @@ Use csvlook from csvkit to beautify csv in console.
     http://www.skf.com/binary/79-267781/AA_2013_323124d0_IM-EN.pdf
     http://www.splendidcrm.com/Documentation/tabid/233/rvdwktid/deployment-guide-528/Default.aspx
     http://www.video-insight.com/kb/pdf.php?cat=15&id=111&artlang=en
-
-Routers and others:
-
-    http://www.defaultpassword.com/
-    https://cirt.net/passwords
-    http://www.defaultpassword.us/
-    https://default-password.info/
-    https://www.bestvpn.com/guides/default-router-login-details/
-    https://192-168-1-1ip.mobi/default-router-passwords-list/
-    http://www.routerpasswords.com/
-    http://phenoelit.org/dpl/dpl.html
-    https://github.com/jeanphorn/wordlist
-    https://datarecovery.com/rd/default-passwords/
-    https://www.lifewire.com/netgear-default-password-list-2619154
-
-IP-CAM:
-    
-    https://ipvm.com/reports/ip-cameras-default-passwords-directory
-
-WEB:
-    
-    http://securenetworkmanagement.com/default-password-list/
-
-Other:
-
-    
-    https://github.com/breenmachine/VulnCheckFramework/tree/master/credentialDatabase
-    http://support.huawei.com/enterprise/en/doc/EDOC1000118783?section=j004
-
 
 
 ## Author
