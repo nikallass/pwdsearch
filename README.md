@@ -24,3 +24,8 @@ Use csvlook from csvkit to beautify csv in console.
 ## TODO:
 * Add tomat, jboss, coldfusion, weblogic, railo, axis2, glassfish
 * Add ipmi, HP management systems, RabbitMQ and others
+
+## Author
+**nikallass**
+<br>E-mail: <nikallass@yandex.ru>
+<br>Telegram: [@is_man](https://t.me/is_man)
