@@ -15,10 +15,14 @@ import codecs
 # Set accurace for Levenshtein distance. Less more accurate.
 accuracy = 2
 
+search_terms = []
 
 # Help message:
-if len(sys.argv) == 2:
-    help_message = \
+if len(sys.argv) >= 2:
+
+    first_arg = sys.argv[1]
+    if '-h' == first_arg or '--help' == first_arg:
+        help_message = \
 '''Tool searching for different default passwords. It uses Levenshtein distance for fuzzy search. 
 
 Usage:
@@ -33,11 +37,11 @@ Hint: Use csvlook from csvkit to beautify csv in console.
     2) And then: 
         pwdsearch.py tp-link | csvlook
 '''
-
-    arg = sys.argv[1]
-    if '-h' == arg or '--help' == arg:
         print(help_message)
         exit()
+    else:
+        for a in sys.argv[1:]:
+            print('Searching for: ' + a)
 
 # Calculates the Levenshtein distance between a and b.
 def distance(a, b):
@@ -75,7 +79,7 @@ with codecs.open(dirname + '/default-passwords.csv', "r",encoding='utf-8', error
         print(header)
         for p in body: print(p)
         exit()
-
+    
     find_term = sys.argv[1]
     find_term = find_term.lower()
 
