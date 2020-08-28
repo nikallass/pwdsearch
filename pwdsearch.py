@@ -41,7 +41,7 @@ Hint: Use csvlook from csvkit to beautify csv in console.
         exit()
     else:
         for a in sys.argv[1:]:
-            print('Searching for: ' + a)
+            print('Searching for: ' + a, file=sys.stderr)
 
 # Calculates the Levenshtein distance between a and b.
 def distance(a, b):
