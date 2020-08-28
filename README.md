@@ -23,6 +23,8 @@ Use csvlook from csvkit to beautify csv in console.
 
 
 ## TODO:
+* Fix excel text -> num autocorrection. 0000 became 0, 000001 became 1.
+* Fix CaSiNg of key fields.
 * Add multiword search
 * csvlook by default
 * Add coldfusion, railo, axis2, terradata
@@ -31,6 +33,7 @@ Use csvlook from csvkit to beautify csv in console.
 
 #### Routers and others:
 
+https://www.urtech.ca/2011/12/default-passwords/
 http://www.defaultpassword.com/
 https://cirt.net/passwords
 http://www.defaultpassword.us/
