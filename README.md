@@ -25,6 +25,7 @@ Use csvlook from csvkit to beautify csv in console.
 ## TODO:
 * Fix excel text -> num autocorrection. 0000 became 0, 000001 became 1.
 * Fix CaSiNg of key fields.
+* Fix small (2 word) search falses.
 * Add multiword search
 * csvlook by default
 * Add coldfusion, railo, axis2, terradata
