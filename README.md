@@ -23,6 +23,7 @@ Use csvlook from csvkit to beautify csv in console.
 
 
 ## TODO:
+* Show result relevance score.
 * Add passwords to default CMSs, websites, DBMS etc.
 * Fix excel text -> num autocorrection. 0000 became 0, 000001 became 1, "1234" bacame "1,234".
 * Fix CaSiNg of key fields.
